@@ -11,14 +11,12 @@ dependencies:
   flutter:
     sdk: flutter
 
-dev_dependencies:
-
   micro_core:
-    path: ../micro_core
+    git:
+      url: git@github.com:ADFgames/micro_core.git
+      ref: v1.0.0
 
-  
-
-
+dev_dependencies:
 
   flutter_test:
     sdk: flutter
